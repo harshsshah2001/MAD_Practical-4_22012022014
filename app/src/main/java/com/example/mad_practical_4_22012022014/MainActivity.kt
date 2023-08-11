@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
             val bttn2=findViewById<Button>(button2);
             bttn2.setOnClickListener{
-                val Intent = Intent(this,SignUp_activity::class.java).also{startActivity(it)}
+                val Intent = Intent(this,SignupActivity::class.java).also{startActivity(it)}
             }
     }
 }
